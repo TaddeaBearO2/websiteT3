@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>T3</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+</head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-right" style="display:none;z-index:2;width:40%;min-width:300px;right:0" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">BERANDA</a>
+  <a href="#dosen" onclick="w3_close()" class="w3-bar-item w3-button">DOSEN LABORATORIUM TEKNIK TEGANGAN TINGGI</a>
+  <a href="#mahasiswa" onclick="w3_close()" class="w3-bar-item w3-button">MAHASISWA LABORATORIUM TEKNIK TEGANGAN TINGGI</a>
+  <a href="#laboratorium" onclick="w3_close()" class="w3-bar-item w3-button">LABORATORIUM & PRAKTIKUM TEKNIK TEGANGAN TINGGI</a>
+  <a href="#capstone" onclick="w3_close()" class="w3-bar-item w3-button">CAPSTONE DESIGN & PENELITIAN</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top" style="background-color:#ecf2ff;">
+  <!-- Language Container (Look for W3.CSS Panel - Show Open A Panel)-->
+  <div class="w3-small" style="background-color:#cfdddc;margin:auto;padding:8px;height:40px">
+    <!-- ID Flag -->
+    <button class="w3-display-container w3-card-4 w3-right w3-button" style="height:20px;width:35px;" data-language="id">
+      <div class="w3-red w3-display-topleft" style="width:100%;height:50%"></div>
+      <div class="w3-white w3-display-bottomleft" style="width:100%;height:50%"></div>
+    </button>
+    <!-- US Flag -->
+    <a href="" class="w3-bar-item w3-right" style="height:25px;">
+			<button class="w3-card-4 w3-right" style="height:25px;width:40px;margin-top: 8px;background-size:cover;border:none;padding:0px;background-image: url('images/us0.png');" data-language="en"></button>
+		</a>
+    <!-- Main Header Container -->
+    <div class="w3-xlarge" style="max-width:1200px;margin:auto;">
+      <div class="w3-button w3-padding-32 w3-right" onclick="w3_open()">☰</div>
+      <img src="images/ico0.png" class="w3-left w3-padding-16" style="max-height:100px" alt="Logo">
+      <div class="w3-left w3-padding-32" style="padding-left:50px;overflow:hidden;text-overflow:ellipsis;position: fixed;left: 60px;">TEKNIK TEGANGAN TINGGI & INFRASTRUKTUR</div>
+    </div>
+    
+  </div>  
+</div>
+
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-top:100px;background-color: #ecf2ff;">
+
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="https://placehold.co/1600x1060/000000/FFF" alt="Fashion Blog" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white">Teknik Tegangan Tinggi</h1>
+      <br>
+      <h6 class="w3-white w3-padding-large w3-large" style="max-width:600px;">Laboratorium Tegangan Tinggi merupakan salah satu laboratorium yang ada di Departemen Teknik Elektro, Universitas Hasanuddin. Laboratorium ini dapat membangkitkan tegangan tinggi AC, DC, dan Impuls yang dapat dirakit secara modular. Masing-masing rangkaian pembangkit tersebut dapat dibangun menggunakan kompone-komponen dasar tegangan tinggi, yaitu Trafo Uji Tegangan Tinggi, Control Desk, Penyearah, Kapasitor Impuls, Resistor Pembentuk Gelombang, Kapasitor Beban, dan komponen lain seperti Resistor Pemuatan, Resistor Ukur, Saklar Pembumian, instrument-instrument pengukur, serta komponen lainnya.</h6>
+    </div>
+  </header>
+
+  <!-- Sub Page content 1 -->
+  <div class="w3-content" style="max-width:1100px">
+    <!-- Profil Section -->
+    <div class="w3-row w3-padding-64" id="about">
+      <div class="w3-col m6 w3-padding-large w3-hide-small">
+      <img src="/images/picplaceholder0.png" class="w3-round w3-image w3-opacity-min" width="600" height="750">
+      </div>
+
+      <div class="w3-col m6 w3-padding-large">
+        <h1 class="w3-center">PROFIL</h1><br>
+        <p class="w3-large">DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK</p>
+      </div>
+    </div>
+    
+    <!-- Laboratorium Section -->
+    <div class="w3-row w3-padding-64" id="menu">
+      <div class="w3-col l6 w3-padding-large">
+        <h1 class="w3-center">LABORATORIUM</h1><br>
+        <p class="w3-large">DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK</p>
+      </div>
+      
+      <div class="w3-col l6 w3-padding-large">
+        <img src="/images/picplaceholder0.png" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+      </div>
+    </div>
+
+    <!-- Praktikum Section -->
+    <div class="w3-row w3-padding-64" id="about">
+      <div class="w3-col m6 w3-padding-large w3-hide-small">
+      <img src="/images/picplaceholder0.png" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+      </div>
+
+      <div class="w3-col m6 w3-padding-large">
+        <h1 class="w3-center">PRAKTIKUM</h1><br>
+        <p class="w3-large">DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK</p>
+      </div>
+    </div>
+    
+    <!-- Capstone Project Section -->
+    <div class="w3-row w3-padding-64" id="menu">
+      <div class="w3-col l6 w3-padding-large">
+        <h1 class="w3-center">CAPSTONE PROJECT</h1><br>
+        <p class="w3-large">DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK</p>
+      </div>
+      
+      <div class="w3-col l6 w3-padding-large">
+        <img src="/images/picplaceholder0.png" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+      </div>
+    </div>
+
+    <!-- Penelitian Section -->
+    <div class="w3-row w3-padding-64" id="about">
+      <div class="w3-col m6 w3-padding-large w3-hide-small">
+      <img src="/images/picplaceholder0.png" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+      </div>
+
+      <div class="w3-col m6 w3-padding-large">
+        <h1 class="w3-center">PENELITIAN</h1><br>
+        <p class="w3-large">DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK DESK</p>
+      </div>
+    </div>
+
+  </div>
+
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>MITRA</h3><br>
+    <div class="w3-padding-32">
+      <h4><b>Mitra1</b></h4>
+      <h4><b>Mitra2</b></h4>
+      <h4><b>Mitra3</b></h4>
+      <h4><b>Mitra4</b></h4>
+    </div>
+  </div>
+
+  <!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-row-padding w3-padding-32" style="background-color:#b2c8ba;border-radius:50px 50px 0px 0px;">
+  <div class="w3-third">
+    <h3>UNIVERSITAS HASANUDDIN</h3>
+    <p>Jl. Malino No.Km.6, Romang Lompoa, Kec. Bontomarannu, Kabupaten Gowa, Sulawesi Selatan 92171</p>
+    <div style="display:inline;">
+      <i class="material-icons w3-border w3-round-xxlarge w3-medium" style="padding:8px;display:inline;margin-top: 20px;">email</i>
+      <p style="display: inline;margin-left: 4px;">labtegangantinggiunhas@gmail.com</p>
+    </div>
+    <div>
+      <div class="w3-border w3-round-xxlarge" style="width: 34px; height: 34px;display: inline-block;">
+        <i class="fa fa-instagram" style="margin: 10px"></i>
+      </div>
+      <p style="display: inline;">@highvoltageunhas</p>
+    </div>
+  </div>
+
+  <div class="w3-third">
+    <h5 class="w3-center"><strong>MAPS</strong></h5>
+    <a href="https://maps.app.goo.gl/GSLTjD7mXFtJr7yQA" target="_blank"><img src="images/maps2.png" class="w3-image w3-panel"></a>
+  </div>
+
+  <div class="w3-third w3-serif">
+    <h6>Beranda</h6>
+    <h6>Dosen Laboratorium</h6>
+    <h6>Laboratorium</h6>
+    <h6>Capstone Project</h6>
+    <h6>Praktikum</h6>
+    <h6>Dokumentasi</h6>
+  </div>
+
+  <div class="w3-row w3-padding" style="display:block;">
+    <hr>
+    <diV class="w3-col" style="margin:auto;max-width: fit-content;">&copy; Wardiere Inc. All Rights Reserved 2023</div>
+    <div class="w3-rest w3-right">Terms & Conditions</div>
+  </div>
+</footer>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>

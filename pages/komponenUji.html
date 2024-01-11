@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>T3 Komponen-Komponen Uji</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../style/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+.color0 {
+  background-color: #FFF;
+}
+
+.color1 {
+  background-color: #ecf2ff;
+}
+
+.color2 {
+  background-color:#cfdddc;
+}
+
+.color3 {
+  background-color:#b2c8ba;
+}
+
+.bgimg-1 {
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('/images/mainbackground0.jpg');
+  min-height: 100%;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+@media only screen and (max-device-width: 1000px) {
+  .bgimg-1 {
+    background-attachment: scroll;
+    min-height: 500px;
+  }
+}
+</style>
+</head>
+<body class="color1">
+
+<!-- Top menu -->
+<div class="w3-top">
+	<div class="w3-bar w3-card color2" id="myNavbar">
+		<button class="w3-button w3-xlarge w3-bar-item w3-right" onclick="w3_open()">☰</button>
+		<!-- Logo -->
+		<img src="../images/logoT3.png" class="w3-bar-item w3-image" style="max-width:75px;padding-bottom:0px;">
+		<!-- Title -->
+		<h3 class="w3-bar-item" style="text-shadow:1px 1px 0 #000; margin:0px 0px 0px 0px"><span class="w3-hide-small"><b>TEKNIK TEGANGAN TINGGI & INFRASTRUKTUR KETENAGALISTRIKAN</b></span><span class="w3-hide-medium w3-hide-large"><b>T3</b></span></h3>
+		<!-- ID Flag -->
+		<a href="" class="w3-bar-item w3-right" style="height:25px;">
+			<button class="w3-display-container w3-card-4 w3-right w3-button" style="height:25px;width:40px;margin-top: 8px;padding:0px" data-language="id">
+				<div class="w3-red w3-display-topleft" style="width:100%;height:50%"></div>
+				<div class="w3-white w3-display-bottomleft" style="width:100%;height:50%"></div>
+			</button>
+		</a>
+		<!-- US Flag -->
+		<a href="" class="w3-bar-item w3-right" style="height:25px;">
+			<button class="w3-card-4 w3-right" style="height:25px;width:40px;margin-top: 8px;background-size:cover;border:none;padding:0px;background-image: url('../images/us0.png');" data-language="en"></button>
+		</a>
+	</div>
+
+	<!-- Sidebar -->
+	<div class="w3-sidebar w3-bar-block w3-xlarge color2 w3-animate-right" style="display:none" id="mySidebar">
+		<button onclick="w3_close()" class="w3-bar-item w3-button w3-bottombar w3-right-align w3-border-white"><strong>Tutup &times;</strong></button>
+    <a href="../index.html" class="w3-bar-item w3-button w3-bottombar w3-right-align w3-border-white">BERANDA</a>
+		<a href="dosen.html" class="w3-bar-item w3-button w3-bottombar w3-right-align w3-border-white">DOSEN LABORATORIUM TEKNIK TEGANGAN TINGGI</a>
+		<a href="mahasiswa.html" class="w3-bar-item w3-button w3-bottombar w3-right-align w3-border-white">MAHASISWA  LABORATORIUM TEKNIK TEGANGAN TINGGI</a>
+		<a href="laboratorium.html" class="w3-bar-item w3-button w3-bottombar w3-right-align w3-border-white">LABORATORIUM & PRAKTIKUM TEKNIK TEGANGAN TINGGI</a>
+		<a href="capstone.html" class="w3-bar-item w3-button w3-bottombar w3-right-align w3-border-white">CAPSTONE DESIGN & PENELITIAN</a>
+	</div>
+</div>
+
+<!-- Content -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+	<h3><strong>KOMPONEN-KOMPONEN UJI</strong></h3>
+
+	<!-- First Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="../images/hv9111.png" style="height:100px;width: fit-content;" class="w3-image">
+      <div class="w3-container w3-white">
+        <p class="w3-center"><b>HV9111 Silicon Rectifier</b></p>
+      </div>
+    </div>
+
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="../images/hv9112.png" style="height:100px;width: fit-content;" class="w3-image">
+      <div class="w3-container w3-white">
+        <p class="w3-center"><b>HV9112 Impulse Capacitor</b></p>
+      </div>
+    </div>
+
+		<div class="w3-third w3-container w3-margin-bottom">
+      <img src="../images/hv9120.png" style="height:100px;width: fit-content;" class="w3-image">
+      <div class="w3-container w3-white">
+        <p class="w3-center"><b>HV9120 Load Capacitor</b></p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Second Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="../images/hv9141.png" style="height:100px;width: fit-content;" class="w3-image">
+      <div class="w3-container w3-white">
+        <p class="w3-center"><b>HV9141 Measuring Capacitor</b></p>
+      </div>
+    </div>
+
+		<div class="w3-third w3-container w3-margin-bottom">
+      <img src="../images/hv9113.png" style="height:100px;width: fit-content;" class="w3-image">
+      <div class="w3-container w3-white">
+        <p class="w3-center"><b>HV9113 Load Capacitor</b></p>
+      </div>
+    </div>
+
+		<div class="w3-third w3-container w3-margin-bottom">
+      <img src="../images/hv9121.png" style="height:100px;width: fit-content;" class="w3-image">
+      <div class="w3-container w3-white">
+        <p class="w3-center"><b>HV9121 Charging Resistor</b></p>
+      </div>
+    </div>
+	</div>
+
+	<!-- Third Grid -->
+	<div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="../images/hv9122.png" style="height:100px;width: fit-content;" class="w3-image">
+      <div class="w3-container w3-white">
+        <p class="w3-center"><b>HV9122 Wave Front Resistor</b></p>
+      </div>
+    </div>
+
+		<div class="w3-third w3-container w3-margin-bottom">
+      <img src="../images/hv9123.png" style="height:100px;width: fit-content;" class="w3-image">
+      <div class="w3-container w3-white">
+        <p class="w3-center"><b>HV9123 Wave Tail Resistor</b></p>
+      </div>
+    </div>
+
+		<div class="w3-third w3-container w3-margin-bottom">
+      <img src="../images/hv9127.png" style="height:100px;width: fit-content;" class="w3-image">
+      <div class="w3-container w3-white">
+        <p class="w3-center"><b>HV9127 Load Resistor</b></p>
+      </div>
+    </div>
+	</div>
+
+  <!-- Fourth Grid -->
+	<div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="../images/hv9124.png" style="height:100px;width: fit-content;" class="w3-image">
+      <div class="w3-container w3-white">
+        <p class="w3-center"><b>HV9124 Insulating Rod</b></p>
+      </div>
+    </div>
+
+		<div class="w3-third w3-container w3-margin-bottom">
+      <img src="../images/hv9125.png" style="height:100px;width: fit-content;" class="w3-image">
+      <div class="w3-container w3-white">
+        <p class="w3-center"><b>HV9125 Sphere Gap</b></p>
+      </div>
+    </div>
+
+		<div class="w3-third w3-container w3-margin-bottom">
+      <img src="../images/hv9132.png" style="height:100px;width: fit-content;" class="w3-image">
+      <div class="w3-container w3-white">
+        <p class="w3-center"><b>HV9132 Electronic trigger sphere</b></p>
+      </div>
+    </div>
+	</div>
+
+  <!-- Fifth Grid -->
+	<div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="../images/hv9138.png" style="height:100px;width: fit-content;" class="w3-image">
+      <div class="w3-container w3-white">
+        <p class="w3-center"><b>HV9138 Electrode</b></p>
+      </div>
+    </div>
+
+		<div class="w3-third w3-container w3-margin-bottom">
+      <img src="../images/hv9109.png" style="height:100px;width: fit-content;" class="w3-image">
+      <div class="w3-container w3-white">
+        <p class="w3-center"><b>HV9109 Connecting Cup, Aluminium</b></p>
+      </div>
+    </div>
+
+		<div class="w3-third w3-container w3-margin-bottom">
+      <img src="../images/hv9110.png" style="height:100px;width: fit-content;" class="w3-image">
+      <div class="w3-container w3-white">
+        <p class="w3-center"><b>HV9110 Floor Pedestal, Aluminium</b></p>
+      </div>
+    </div>
+	</div>
+
+  <!-- Sixth Grid -->
+	<div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="../images/hv9130.png" style="height:100px;width: fit-content;" class="w3-image">
+      <div class="w3-container w3-white">
+        <p class="w3-center"><b>HV9130 Low Voltage Divider</b></p>
+      </div>
+    </div>
+
+		<div class="w3-third w3-container w3-margin-bottom">
+      <img src="../images/hv9108.png" style="height:100px;width: fit-content;" class="w3-image">
+      <div class="w3-container w3-white">
+        <p class="w3-center"><b>HV9108 Connecting Rod, Aluminium</b></p>
+      </div>
+    </div>
+
+		<div class="w3-third w3-container w3-margin-bottom">
+      <img src="../images/hv9107.png" style="height:100px;width: fit-content;" class="w3-image">
+      <div class="w3-container w3-white">
+        <p class="w3-center"><b>HV9107 Discharge Rod</b></p>
+      </div>
+    </div>
+	</div>
+
+  <!-- Seventh Grid -->
+	<div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="../images/hv9119.png" style="height:100px;width: fit-content;" class="w3-image">
+      <div class="w3-container w3-white">
+        <p class="w3-center"><b>HV9119 Spacer Tube, Aluminium</b></p>
+      </div>
+    </div>
+
+		<div class="w3-third w3-container w3-margin-bottom">
+      <img src="../images/hv9114.png" style="height:100px;width: fit-content;" class="w3-image">
+      <div class="w3-container w3-white">
+        <p class="w3-center"><b>HV9114 Earthing Switch, Electrically Operated</b></p>
+      </div>
+    </div>
+
+		<div class="w3-third w3-container w3-margin-bottom">
+      <img src="../images/hv9126-d.png" style="height:100px;width: fit-content;" class="w3-image">
+      <div class="w3-container w3-white">
+        <p class="w3-center"><b>HV9126-D Drive for Sphere Gap</b></p>
+      </div>
+    </div>
+	</div>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-row-padding color3" style="border-radius:50px 50px 0px 0px;padding:32px 8px 0px 8px;">
+  <div class="w3-third">
+    <img src="../images/logoUnhasPutih.png" alt="UNIVERSITAS HASANUDDIN" class="w3-image">
+    <p>Jl. Malino No.Km.6, Romang Lompoa, Kec. Bontomarannu, Kabupaten Gowa, Sulawesi Selatan 92171</p>
+    <div style="display:inline;">
+      <i class="material-icons w3-border w3-round-xxlarge w3-medium" style="padding:8px;display:inline;margin-top: 20px;">email</i>
+      <p style="display: inline;margin-left: 4px;">labtegangantinggiunhas@gmail.com</p>
+    </div>
+    <div>
+      <div class="w3-border w3-round-xxlarge" style="width: 34px; height: 34px;display: inline-block;">
+        <i class="fa fa-instagram" style="margin: 10px"></i>
+      </div>
+      <p style="display: inline;">@highvoltageunhas</p>
+    </div>
+  </div>
+
+  <div class="w3-third">
+    <h3 class="w3-center"><strong>MAPS</strong></h3>
+    <a href="https://maps.app.goo.gl/GSLTjD7mXFtJr7yQA" target="_blank"><img src="../images/maps2.png" class="w3-image w3-panel" style="max-height: 150px;margin-left:50px"></a>
+  </div>
+
+  <div class="w3-third w3-serif">
+    <a href="../index.html" class="w3-xlarge">Beranda</a><br>
+    <a href="dosen.html" class="w3-xlarge">Dosen Laboratorium</a><br>
+    <a href="mahasiswa.html" class="w3-xlarge">Mahasiswa</a><br>
+    <a href="laboratorium.html" class="w3-xlarge">Laboratorium & Praktikum</a><br>
+    <a href="capstone.html" class="w3-xlarge">Capstone Project</a><br>
+    <a href="" class="w3-xlarge">Dokumentasi</a>
+  </div>
+
+  <div class="w3-row w3-padding" style="display:block;">
+    <hr>
+    <diV class="w3-col" style="margin:auto;max-width: fit-content;">&copy; Wardiere Inc. All Rights Reserved 2023</div>
+    <div class="w3-rest w3-right">Terms & Conditions</div>
+  </div>
+</footer>
+
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.width = "100%";
+  document.getElementById("mySidebar").style.display = "block";
+	document.getElementById("myNavbar").style.display = "none";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+	document.getElementById("myNavbar").style.display = "block";
+}
+</script>
+
+</body>
+</html>
